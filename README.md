@@ -1,12 +1,12 @@
 # Machine-Learning
 
-In this project, I propose five classification models: Support Vector Machines (SVMs), Logistic Regression, Random Forest, K Nearest Neighbors(KNNs) and Multi-layer Perceptron (MLP) to predict the possibility of a forest fire in the future. I have used the Nearest Means Classifier as my Baseline system.
+In this project, I propose five classification models: **Support Vector Machines (SVMs), Logistic Regression, Random Forest, K Nearest Neighbors(KNNs) and Multi-layer Perceptron (MLP)** to predict the possibility of a forest fire in the future. I have used the Nearest Means Classifier as my Baseline system.
 
-Data Set : Algerian forest fires
+**Data Set : Algerian forest fires**
 
 All these models are compared based on the performance measures: Test Accuracy, F1-score, and confusion matrices on the Algerian Fires dataset, which originally consisted of 9 real-valued input features.
 
-Among them, the SVM, Logistic regression and Random forests have reported the highest test accuracy of 91.67%. The model that gave the best test accuracy and F-1 score is the random forest classifier that achieved test accuracy of 91.67% along with the highest F-1 score of 0.8936.
+Among them, the SVM, Logistic regression and Random forests have reported the **highest test accuracy of 91.67%**. The model that gave the best test accuracy and F-1 score is the random forest classifier that achieved test accuracy of 91.67% along with the **highest F-1 score of 0.8936**.
 
 In addition to these features, I have performed feature engineering to generate 9 more new features, which are the previous 3-day rolling averages of the original 9 features. This has enabled me to obtain a 3% higher test accuracy of 91.67% on my SVM model over unnormalized original data and thereby giving the highest test accuracy measure among all the models. 
 
